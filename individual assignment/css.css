@@ -1,0 +1,412 @@
+*{
+	margin:0;
+	padding:0;
+	
+}
+
+.main{
+     width:100%;
+     background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url('riben.jpg');
+     background-position: center;
+	 background-size: cover;
+	 height: 109vh;
+}	 
+
+.navbar{
+	width: 1200px;
+	height: 75px;
+	margin: auto;
+}
+
+.icon{
+   width: 200px;
+   float: left;
+   height: 70px;
+}  
+
+.logo{
+	color: pink;
+	font-size: 35px;
+	font-family: Arial;
+	padding-left: 20px;
+	float: left;
+	padding-top: 10px;
+	
+}
+
+.menu{
+	width: 400px;
+	float:left;
+	height:60px;
+}	
+
+ul{
+	float:left;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}	
+
+ul li{
+	list-style: none;
+	margin-left: 62px;
+	margin-top:20px;
+	font-size: 14px;
+}	
+
+ul li a{
+	text-decoration:none;
+	color: brown;
+	font-family: Arial;
+	font-weight: bold;
+	transition: 0.4s ease-in-out;
+}	
+
+ul li a:hover{
+     color:white;
+}	 
+
+.search{
+	width: 330px;
+	float: left;
+	margin-left: 271px;
+}	
+
+.srch{
+	font-family: 'Times New Roman';
+	width: 200px;
+	height:40px;
+	background:transparent;
+	border: 3px solid pink;
+	margin-top: 13px;
+	color: white;
+	border-right: none;
+	font-size: 16px;
+	float: left;
+	padding: 10px;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+}	
+
+.btn{
+	width: 100px;
+	height: 40px;
+	background: pink;
+	border: 2px solid pink;
+	margin-top: 13px;
+	color: white;
+	font-size: 15px;
+	border-bottom-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}	
+	
+.btn:focus{
+	outline:none;
+}  
+
+.srch:focus{
+	outline: none;
+}
+
+.content{
+	width: 1200px;
+	height: auto;
+	margin: auto;
+	color: white;
+	position: relative;
+}	
+
+.content .par{
+	padding-left: 20px;
+	padding-bottom: 25px;
+	font-family: Arial;
+	letter-spacing: 1.2px;
+	line-height: 30px;
+}
+
+.content h1{
+	font-family: 'Times New Roman';
+	font-size: 50px;
+	padding-left: 20px;
+	margin-top: 9%;
+	letter-spacing: 2px;
+}
+
+.content .cn{
+	width: 160px;
+	height: 40px;
+	background: pink;
+	border: none;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	font-size: 15px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.content .cn a {
+	text-decoration: none;
+	color: brown;
+	transition: .3s ease;
+}
+
+.cn:hover{
+	background-color: white;
+}
+
+.content span{
+	color: pink;
+	font-size: 60px;
+}
+
+
+
+	
+}
+
+
+.pos_cen{
+	padding:0 15px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-around;
+	gap: 3rem;
+	position: relative;
+	height: 100vh;
+	margin-right: 400px;
+	
+	
+}
+
+.intro h2{
+	color:pink;
+	font-size: 35px;
+	margin:70px;
+	text-align:center;
+}
+
+.intro p{
+	color:white;
+	letter-spacing: 1.5px;
+	text-align:center;
+	font-family: Arial;
+	margin:70px;
+
+}
+
+
+.contact-heading {
+    border-bottom: 1px solid pink;
+    padding: 16px 0;
+}
+
+
+.input {
+    margin-bottom: 16px;
+}
+
+.button.black {
+    transition: background-color 0.3s ease;
+}
+
+.button.black:hover {
+    background-color: #333; 
+}
+
+.contact-form{
+	position: absolute;
+	top:-26%;
+	left: 50%;
+	transform: translate(-50%, 50%);
+	width: 400px;
+}
+
+.contact-form h2{
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 40px 0;
+}
+.contact-form p{
+	font-size:20px;
+	margin:15px;
+
+}
+
+.contact-form input{
+	font-size: 16px;
+	padding: 3px 1px;
+	width: 100%;
+	border: 3px solid pink;
+}
+
+.contact-form button{
+	font-size:18px;
+	font-weight: bold;
+	margin: 20px 0;
+	padding: 10px 15px;
+	width: 50%;
+	border: 0;
+	border-radius: 5px;
+	background-color: pink;
+}
+
+.contact-form button:hover {
+	color: white;
+}
+
+
+.table{
+	width: 600px;
+	box-shadow:-1px 12px 12px -6px rgba(0,0,0,0.5);
+
+ 
+}
+ .row1 {
+	 background-color: pink;
+ }
+ 
+ .row2 {
+	 background-color:  gray;
+ }
+ .row3 {
+	 background-color: pink;
+ }
+ .row4 {
+	 background-color: gray;
+ }
+ .row5 {
+	 background-color: pink;
+ }
+
+
+.table,td, th {
+	padding: 20px;
+	border: 1px pink;
+	border-collapse: collapse;
+	text-align: center;
+	
+}
+
+.picture img{
+
+	width:23%;
+	padding:10px;
+	padding-left:12px;
+	padding-top: 50px;
+	
+}
+
+.picture img:hover{
+	transform: scale(2);
+}
+
+.info{
+	text-align: center;
+	 background-color: pink;
+     padding: 20px;
+     border-radius: 8px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ol{
+	list-style-type: none; 
+    font-family: Arial;
+    font-size: 18px;
+    color: white;
+}
+
+.li{
+	padding: 8px 0;
+    border-bottom: 1px solid black;
+}
+
+li:last-child {
+            border-bottom: none; 
+        }
+		
+}
+
+.body clock{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	height:100vh;
+}
+
+
+.clock{
+	width:500px;
+	height: 500px;
+	position:relative;
+	background-color:pink;
+	border-radius:50%;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	margin: 45px;
+}
+
+.number{
+	transform: rotate(calc(30deg * var(--n)));
+	position:absolute;
+	text-align: center;
+	inset: 20px;
+	font-size: 40px;
+}
+
+.number b {
+	transform: rotate(calc(-30deg * var(--n)));
+	display: inline-block;
+}
+
+.center-dot {
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background-color: gray;
+	border-radius: 50%;
+}
+
+.hour-hand, .minute-hand, .second-hand {
+	--rotate:0;
+	position:absolute;
+	left:50%;
+	bottom: 50%;
+	transform: translate(-50%) rotate(calc(var(--rotate)* 1deg)));
+}
+
+.hour-hand{
+	width: 12px;
+	height: 130px;
+	background-color: white;
+}
+
+.minute-hand{
+	width:12px;
+	height: 190px;
+	background-color: white;
+}
+
+.second-hand{
+	width:6px;
+	height:210px;
+	background-color: brown;
+}
+
+function clockTick() {
+	const date = new Date();
+	const seconds = date.getSeconds() / 60;
+	const minutes = (seconds + date.getMinutes()) /60;
+	conts hours = (minutes + date.getHours()) / 12;
+	
+	rotateClockHand(secondHand, seconds);
+	rotateClockHand(minuteHand, minutess);
+	rotateClockHand(hourHand, hours);
+	
+}
+
+function rotateClockHand(element, rotation) {
+	element.style.setProperty('--rotate',rotation * 360);
+}
